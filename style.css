@@ -1,0 +1,66 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #f44336;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    text-align: center; 
+    font-size: 64px; 
+    color:white;
+    font-variant: small-caps;
+    padding-top: 10%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+a{
+    padding: 12px 24px;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    display: block;
+    
+}
+
+a:hover{
+    background: white;
+    color: black;
+}
+
+.Home{
+    background: white;
+    color: black;
+}
+
+.Home:hover{
+    background: rgb(70%, 70%, 70%);
+}
+
+p{
+    color: white;
+    text-align: center; 
+    font-size: 24px;
+}
+
+button{
+    background: black;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    padding: 12px 24px;
+    font-size: large;
+}
+
+button:hover{
+    background: rgb(70%, 70%, 70%);
+    color: black;
+}
