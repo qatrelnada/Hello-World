@@ -18,6 +18,7 @@ ul{
     display: flex;
     padding: 0px;
     margin: 0px;
+    border-bottom: 3px solid white;
 }
 
 
@@ -41,11 +42,7 @@ a:hover{
     color: black;
 }
 
-.Home:hover{
-    background: rgb(70%, 70%, 70%);
-}
-
-p{
+p, div{
     color: white;
     text-align: center; 
     font-size: 24px;
@@ -54,13 +51,14 @@ p{
 button{
     background: black;
     color: white;
-    margin-top: 20px;
     border: none;
     padding: 12px 24px;
     font-size: large;
+    cursor: pointer;
+    border-radius: 3px;
 }
 
 button:hover{
-    background: rgb(70%, 70%, 70%);
+    background: white;
     color: black;
 }
